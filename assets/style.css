@@ -4,7 +4,7 @@
     padding: 0;
  }
  body{
-    background-color: bisque;
+    background-color:rgb(5, 78, 54);
     font-family: 'Bai Jamburee', sans-serif;
  }
  footer{
@@ -12,9 +12,34 @@
     color: white;
     position: fixed;
     width: 100%;
+    height: 2rem;
  }
  footer p{
     text-align: center;
-    font-weight: 0.6rem;
-    margin: 0.5erem;
+    font-size: 0.6rem;
+    margin: 0.5rem;
  }
+ #container{
+   display: flex;
+ }
+ .cartao{
+  height: 20rem;
+   background-color: aqua;
+   margin: 2rem;
+ }
+ .cartao-conteudo{
+   text-align: center;
+   height: 100%;
+ }
+ .cartao-conteudo h3{
+
+   background-color: blueviolet;
+   color: skyblue;
+   text-align: left;
+   padding: 0.5rem;
+   position: absolute;
+   border-radius: 0.6rem;
+   font-size: 1vw;
+ }
+ 
+ 
