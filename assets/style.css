@@ -3,8 +3,16 @@
     margin: 0;
     padding: 0;
  }
+ :root{
+   --cor-do-texto:#DBE4EF;
+   --cor-cartao-frente:#144480;
+   --cor-cartao-verso:#00f4bf;
+
+   
+
+}
  body{
-    background-color:rgb(5, 78, 54);
+   background: url(img/bg-desktop.webp);
     font-family: 'Bai Jamburee', sans-serif;
  }
  footer{
@@ -24,17 +32,19 @@
  }
  .cartao{
   height: 20rem;
-   background-color: aqua;
+   background-color:grey;
    margin: 2rem;
+   
  }
  .cartao-conteudo{
    text-align: center;
    height: 100%;
+   padding: 20px;
  }
  .cartao-conteudo h3{
 
-   background-color: blueviolet;
-   color: skyblue;
+   background-color: whitesmoke;
+   color: black;
    text-align: left;
    padding: 0.5rem;
    position: absolute;
@@ -42,4 +52,8 @@
    font-size: 1vw;
  }
  
- 
+.cartao-conteudo-pergunta{
+   color: var(--cor-do-texto);
+   font-weight: 500;
+
+}
